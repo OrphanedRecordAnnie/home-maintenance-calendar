@@ -1,0 +1,421 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OpenAI//Home Maintenance//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Home Maintenance
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:60864b8f-3c48-462d-9661-9ff0dd38eeb6@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;TZID=America/Chicago:20261012T2030
+DTEND;TZID=America/Chicago:20261012T2050
+SUMMARY:Daily reset: kitchen\, dishes & clutter
+DESCRIPTION:Wash dishes (no dishwasher)\; wipe kitchen counters\, sink an
+ d stovetop\; tidy living room\, bedroom and offices\; take out waste as 
+ needed.
+RRULE:FREQ=DAILY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e36b622f-8e2b-4a98-b25e-ffe8a1aa78d7@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;TZID=America/Chicago:20261012T0715
+DTEND;TZID=America/Chicago:20261012T0730
+SUMMARY:Chicken care: feed\, water\, eggs & coop check
+DESCRIPTION:Refresh feed and water\; collect eggs\; check security and ve
+ ntilation\; remove wet or heavily soiled bedding. Adjust for weather and
+  flock needs.
+RRULE:FREQ=DAILY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f21298b7-13ea-405f-9ad9-53839bf33bc4@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;TZID=America/Chicago:20261012T1845
+DTEND;TZID=America/Chicago:20261012T1925
+SUMMARY:Kitchen weekly clean
+DESCRIPTION:Clean range\, sink\, counters\, handles\, microwave\; mop flo
+ or\; inspect fridge for expired food.
+RRULE:FREQ=WEEKLY;BYDAY=MO
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbe5fef0-b43d-4572-8456-559e0cec30c1@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;TZID=America/Chicago:20261013T1845
+DTEND;TZID=America/Chicago:20261013T1940
+SUMMARY:Clean both bathrooms
+DESCRIPTION:Scrub toilets\, showers and tubs\; wipe sinks and mirrors\; m
+ op floors\; replace towels\; clear hair from drains.
+RRULE:FREQ=WEEKLY;BYDAY=TU
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aeebc2c6-5354-4ebc-a8d3-fae95dcac1d4@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;TZID=America/Chicago:20261014T1845
+DTEND;TZID=America/Chicago:20261014T1930
+SUMMARY:Bedroom & laundry
+DESCRIPTION:Change bedding\; vacuum bedroom\; wash and fold laundry\; cle
+ an dryer lint screen after every load.
+RRULE:FREQ=WEEKLY;BYDAY=WE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e2089bfc-3a21-450f-bb7a-bb8cf742074a@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;TZID=America/Chicago:20261015T1845
+DTEND;TZID=America/Chicago:20261015T1930
+SUMMARY:Living room & two offices
+DESCRIPTION:Dust desks and furniture\; vacuum or mop\; clear papers and e
+ mpty bins.
+RRULE:FREQ=WEEKLY;BYDAY=TH
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:305d79dc-1b97-4f4c-b36f-520b002b3d56@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;TZID=America/Chicago:20261016T1000
+DTEND;TZID=America/Chicago:20261016T1040
+SUMMARY:Floors\, trash & household reset
+DESCRIPTION:Vacuum high-traffic areas and upholstery\; mop as needed\; re
+ move trash and recycling.
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=FR
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1a3eb7e7-623b-48f3-a344-af9c9ea9d312@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;TZID=America/Chicago:20261023T184500
+DTEND;TZID=America/Chicago:20261023T192500
+SUMMARY:Floors\, trash & household reset (working Friday)
+DESCRIPTION:Vacuum high-traffic areas and upholstery\; mop as needed\; re
+ move trash and recycling.
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=FR
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:94b45ce9-9c57-4ee8-81aa-37ac525e4fea@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;TZID=America/Chicago:20261017T090000
+DTEND;TZID=America/Chicago:20261017T103000
+SUMMARY:Yard\, chicken coop & exterior upkeep
+DESCRIPTION:Mow/trim during growing season\; remove pet waste\; refresh c
+ oop bedding as needed\; check fencing\, shed exteriors and deck for obvi
+ ous hazards. Skip mowing when dormant.
+RRULE:FREQ=WEEKLY;BYDAY=SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:57eb79cb-da50-41bf-b9c0-fda9bf9378b4@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;TZID=America/Chicago:20261018T150000
+DTEND;TZID=America/Chicago:20261018T154500
+SUMMARY:Maintenance planning & rotating deep clean
+DESCRIPTION:Review upcoming tasks and supplies\; work on this month’s d
+ eep-clean focus\; document repair issues.
+RRULE:FREQ=WEEKLY;BYDAY=SU
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a8cc89bc-cbc7-4fe6-95db-ec787e7e12af@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Monthly: kitchen appliances & cabinets
+DESCRIPTION:Clean refrigerator shelves and seals\; oven/range as needed\;
+  wipe cabinets\; clean trash cans.
+RRULE:FREQ=MONTHLY;BYMONTHDAY=19
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:49c5e8e4-7a93-462a-ac76-b94a04351128@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Monthly: Jacuzzi jets & bathroom inspection
+DESCRIPTION:Clean whirlpool jets/internal plumbing following manufacturer
+  instructions\, especially after use. Check grout\, caulk and leaks unde
+ r fixtures.
+RRULE:FREQ=MONTHLY;BYMONTHDAY=20
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:deeff562-41c2-455e-bd43-37fd261e8d1f@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Monthly: HVAC filter\, alarms & safety checks
+DESCRIPTION:Inspect HVAC filter\; replace if dirty or per specifications.
+  Test smoke and CO alarms\; inspect fire extinguisher gauge. Check for g
+ as appliance or water-heater concerns\; do not work on gas connections.
+RRULE:FREQ=MONTHLY;BYMONTHDAY=21
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:63c7fe49-edf2-4487-ba13-8de7ac90c193@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Monthly: wellhead\, sheds\, deck & drainage walk
+DESCRIPTION:Check visible well cap\, grading\, erosion and standing water
+ \; inspect both sheds and chicken coop roof\; observe deck damage from s
+ afe areas. Keep unsafe sections off-limits.
+RRULE:FREQ=MONTHLY;BYMONTHDAY=24
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a56aae13-84d2-4f7b-9ce3-dfdddf3c3e75@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Monthly: junk room & storage declutter
+DESCRIPTION:Sort one zone\; discard\, donate or organize items\; check fo
+ r pests\, leaks and moisture.
+RRULE:FREQ=MONTHLY;BYMONTHDAY=25
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:834ec1c6-de85-426c-847d-611161585f57@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Monthly: dusting\, windows & utility checks
+DESCRIPTION:Rotate baseboards\, ceiling fans\, blinds and window tracks\;
+  inspect under sinks\, washer hoses and laundry-room moisture.
+RRULE:FREQ=MONTHLY;BYMONTHDAY=26
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a3bc85ca-7864-4c6b-b67a-be74a04425a4@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Quarterly: deep clean appliances & dryer exhaust
+DESCRIPTION:Clean behind accessible appliances\; clean refrigerator coils
+  if applicable\; inspect dryer exhaust and clean as needed. Seek profess
+ ional help for inaccessible ducts.
+RRULE:FREQ=MONTHLY;INTERVAL=3;BYDAY=-1SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:540c6e91-282d-40c7-b309-0be59bb5fbdf@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Quarterly: doors\, windows\, pests & plumbing
+DESCRIPTION:Inspect weatherstripping\, locks\, screens\, caulking\, crawl
+ space/attic pest signs and visible plumbing\; avoid unsafe crawlspace ac
+ cess.
+RRULE:FREQ=MONTHLY;INTERVAL=3;BYDAY=-1SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e34ef2e1-77d1-4ad4-b9bb-b52d6e8d0bf8@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Quarterly: coop\, deck\, trees & well surroundings
+DESCRIPTION:Deep clean coop as conditions require\; inspect mites\, fenci
+ ng and roof. Review deck framing\, railings and stairs from safe locatio
+ ns\; look for damaged tree limbs and contamination near well.
+RRULE:FREQ=MONTHLY;INTERVAL=3;BYDAY=-1SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9ab98a70-1235-4c29-9d40-0d238801ddae@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:January: junk room & inventory
+DESCRIPTION:Deep-organize junk room and storage\; inventory tools and sup
+ plies\; review repair budget.
+RRULE:FREQ=YEARLY;BYMONTH=1;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:217a0f4f-d369-43ba-9838-eff48c42a0e0@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:February: kitchen & pantry deep clean
+DESCRIPTION:Deep clean pantry\, kitchen cabinets and appliance interiors.
+RRULE:FREQ=YEARLY;BYMONTH=2;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:115e82a1-7c79-47ca-a2b1-450b7d11fc2f@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:March: HVAC cooling\, well-water testing & storm prep
+DESCRIPTION:Arrange cooling-system service. Test well water for total col
+ iform bacteria\, nitrate\, pH and TDS\; follow lab guidance and retest a
+ fter contamination events. Check drainage and roof.
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5b0387dc-d9b8-4096-bd38-c9a036a4ad7d@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:April: windows\, gutters & yard drainage
+DESCRIPTION:Clean windows and screens\; clear gutters safely\; inspect do
+ wnspouts\, erosion and drainage.
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4da56fa0-7e03-44b7-922c-0c71336e65f2@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:May: deck\, sheds\, fence & mower
+DESCRIPTION:Inspect deck and outbuildings\; plan structural repairs befor
+ e refinishing\; inspect fencing and service lawn equipment.
+RRULE:FREQ=YEARLY;BYMONTH=5;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:55faacd1-5b54-43e2-9422-d15e591f8448@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:June: offices & records
+DESCRIPTION:Deep clean two offices\, dust electronics safely\, organize f
+ iles and shred sensitive papers.
+RRULE:FREQ=YEARLY;BYMONTH=6;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a0cf05c9-e4e7-438d-b2c5-2d4fb27fedcc@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+SUMMARY:July: bathrooms & Jacuzzi deep clean
+DESCRIPTION:Deep clean both bathrooms\; inspect grout\, caulk and plumbin
+ g\; follow Jacuzzi manufacturer maintenance instructions.
+RRULE:FREQ=YEARLY;BYMONTH=7;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:779de859-edc6-422a-b92d-1cd8b55cedd0@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:August: laundry\, utility area & dryer duct
+DESCRIPTION:Deep clean laundry/storage room\; arrange dryer duct cleaning
+  if lint buildup or performance warrants\; inspect washer hoses.
+RRULE:FREQ=YEARLY;BYMONTH=8;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5589e7d0-dbb3-4434-8c7f-9d1db14a1ef0@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:September: heating service & winter prep
+DESCRIPTION:Arrange heating-system service\; check gas water heater and r
+ ange per manufacturer\; inspect weatherstripping and outdoor plumbing.
+RRULE:FREQ=YEARLY;BYMONTH=9;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a38e93d2-406c-4cd0-af64-b6d6c2e2cff3@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:October: gutters\, trees\, coop & freeze preparation
+DESCRIPTION:Clear gutters after leaf fall as needed\; check storm-damaged
+  limbs\; prepare coop ventilation/bedding and outdoor plumbing for cold.
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1ad77527-a76c-4291-8e38-3af353c43a05@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:November: bedroom\, upholstery & closets
+DESCRIPTION:Deep clean bedroom\, mattress and upholstery\; organize close
+ ts and bedding.
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dcb507ae-2c45-42f4-82b5-55d47ff8d056@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:December: annual safety & next-year maintenance plan
+DESCRIPTION:Review alarms\, extinguishers\, roof\, plumbing\, repair reco
+ rds\, well test results and maintenance budget.
+RRULE:FREQ=YEARLY;BYMONTH=12;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7595e8c7-0e02-428f-9736-dba2a82de2e7@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Annual: water heater inspection & manufacturer service
+DESCRIPTION:Inspect for leaks/corrosion\; arrange flushing/draining and a
+ node check according to manufacturer guidance and water conditions. Gas-
+ system work by qualified personnel.
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c69fb4e6-dc7f-4666-9101-7e98e1be1b8f@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:Annual: roof and exterior condition review
+DESCRIPTION:Inspect roof from ground or hire professional\; review siding
+ \, paint\, sealant and storm damage. Avoid unsafe ladders.
+RRULE:FREQ=YEARLY;BYMONTH=5;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6d2dc122-4c01-4959-a33a-44998ba1510d@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:Annual: well pump/pressure tank review
+DESCRIPTION:Review pump cycling\, pressure tank and controls\; schedule p
+ rofessional inspection based on condition\, commonly every 1–3 years.
+RRULE:FREQ=YEARLY;BYMONTH=6;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8c72b0a6-8e78-4f83-a093-96416e928f69@home-maintenance.local
+DTSTAMP:20261012T130000Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:Annual: septic inspection reminder (if applicable)
+DESCRIPTION:If the property has a septic system\, arrange inspection abou
+ t every 1–3 years and pump as indicated\, commonly 3–5 years.
+RRULE:FREQ=YEARLY;BYMONTH=8;BYDAY=3SA
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
