@@ -26,8 +26,8 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:60864b8f-3c48-462d-9661-9ff0dd38eeb6@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;TZID=America/Chicago:20261012T2030
-DTEND;TZID=America/Chicago:20261012T2050
+DTSTART;TZID=America/Chicago:20261012T1700
+DTEND;TZID=America/Chicago:20261012T1720
 SUMMARY:Daily reset: kitchen\, dishes & clutter
 DESCRIPTION:Wash dishes (no dishwasher)\; wipe kitchen counters\, sink an
  d stovetop\; tidy living room\, bedroom and offices\; take out waste as 
@@ -50,8 +50,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:f21298b7-13ea-405f-9ad9-53839bf33bc4@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;TZID=America/Chicago:20261012T1845
-DTEND;TZID=America/Chicago:20261012T1925
+DTSTART;TZID=America/Chicago:20261012T1800
+DTEND;TZID=America/Chicago:20261012T1840
 SUMMARY:Kitchen weekly clean
 DESCRIPTION:Clean range\, sink\, counters\, handles\, microwave\; mop flo
  or\; inspect fridge for expired food.
@@ -61,8 +61,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:fbe5fef0-b43d-4572-8456-559e0cec30c1@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;TZID=America/Chicago:20261013T1845
-DTEND;TZID=America/Chicago:20261013T1940
+DTSTART;TZID=America/Chicago:20261013T1800
+DTEND;TZID=America/Chicago:20261013T1855
 SUMMARY:Clean both bathrooms
 DESCRIPTION:Scrub toilets\, showers and tubs\; wipe sinks and mirrors\; m
  op floors\; replace towels\; clear hair from drains.
@@ -72,8 +72,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:aeebc2c6-5354-4ebc-a8d3-fae95dcac1d4@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;TZID=America/Chicago:20261014T1845
-DTEND;TZID=America/Chicago:20261014T1930
+DTSTART;TZID=America/Chicago:20261014T1800
+DTEND;TZID=America/Chicago:20261014T1845
 SUMMARY:Bedroom & laundry
 DESCRIPTION:Change bedding\; vacuum bedroom\; wash and fold laundry\; cle
  an dryer lint screen after every load.
@@ -83,8 +83,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:e2089bfc-3a21-450f-bb7a-bb8cf742074a@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;TZID=America/Chicago:20261015T1845
-DTEND;TZID=America/Chicago:20261015T1930
+DTSTART;TZID=America/Chicago:20261015T1800
+DTEND;TZID=America/Chicago:20261015T1845
 SUMMARY:Living room & two offices
 DESCRIPTION:Dust desks and furniture\; vacuum or mop\; clear papers and e
  mpty bins.
@@ -94,8 +94,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:305d79dc-1b97-4f4c-b36f-520b002b3d56@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;TZID=America/Chicago:20261016T1000
-DTEND;TZID=America/Chicago:20261016T1040
+DTSTART;TZID=America/Chicago:20261016T0740
+DTEND;TZID=America/Chicago:20261016T0820
 SUMMARY:Floors\, trash & household reset
 DESCRIPTION:Vacuum high-traffic areas and upholstery\; mop as needed\; re
  move trash and recycling.
@@ -105,8 +105,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:1a3eb7e7-623b-48f3-a344-af9c9ea9d312@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;TZID=America/Chicago:20261023T184500
-DTEND;TZID=America/Chicago:20261023T192500
+DTSTART;TZID=America/Chicago:20261023T180000
+DTEND;TZID=America/Chicago:20261023T184000
 SUMMARY:Floors\, trash & household reset (working Friday)
 DESCRIPTION:Vacuum high-traffic areas and upholstery\; mop as needed\; re
  move trash and recycling.
