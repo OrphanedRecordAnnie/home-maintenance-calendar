@@ -36,18 +36,6 @@ RRULE:FREQ=DAILY
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e36b622f-8e2b-4a98-b25e-ffe8a1aa78d7@home-maintenance.local
-DTSTAMP:20261012T130000Z
-DTSTART;TZID=America/Chicago:20261012T0715
-DTEND;TZID=America/Chicago:20261012T0730
-SUMMARY:Chicken care: feed\, water\, eggs & coop check
-DESCRIPTION:Refresh feed and water\; collect eggs\; check security and ve
- ntilation\; remove wet or heavily soiled bedding. Adjust for weather and
-  flock needs.
-RRULE:FREQ=DAILY
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:f21298b7-13ea-405f-9ad9-53839bf33bc4@home-maintenance.local
 DTSTAMP:20261012T130000Z
 DTSTART;TZID=America/Chicago:20261012T1800
@@ -118,9 +106,8 @@ UID:94b45ce9-9c57-4ee8-81aa-37ac525e4fea@home-maintenance.local
 DTSTAMP:20261012T130000Z
 DTSTART;TZID=America/Chicago:20261017T090000
 DTEND;TZID=America/Chicago:20261017T103000
-SUMMARY:Yard\, chicken coop & exterior upkeep
-DESCRIPTION:Mow/trim during growing season\; remove pet waste\; refresh c
- oop bedding as needed\; check fencing\, shed exteriors and deck for obvi
+SUMMARY:Yard & exterior upkeep
+DESCRIPTION:Mow/trim during growing season\; remove pet waste\; check fencing\, shed exteriors and deck for obvi
  ous hazards. Skip mowing when dormant.
 RRULE:FREQ=WEEKLY;BYDAY=SA
 TRANSP:TRANSPARENT
@@ -139,106 +126,105 @@ END:VEVENT
 BEGIN:VEVENT
 UID:a8cc89bc-cbc7-4fe6-95db-ec787e7e12af@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
 SUMMARY:Monthly: kitchen appliances & cabinets
 DESCRIPTION:Clean refrigerator shelves and seals\; oven/range as needed\;
   wipe cabinets\; clean trash cans.
-RRULE:FREQ=MONTHLY;BYMONTHDAY=19
+RRULE:FREQ=MONTHLY;BYDAY=1SA
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49c5e8e4-7a93-462a-ac76-b94a04351128@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
 SUMMARY:Monthly: Jacuzzi jets & bathroom inspection
 DESCRIPTION:Clean whirlpool jets/internal plumbing following manufacturer
   instructions\, especially after use. Check grout\, caulk and leaks unde
  r fixtures.
-RRULE:FREQ=MONTHLY;BYMONTHDAY=20
+RRULE:FREQ=MONTHLY;BYDAY=1SU
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:deeff562-41c2-455e-bd43-37fd261e8d1f@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
 SUMMARY:Monthly: HVAC filter\, alarms & safety checks
 DESCRIPTION:Inspect HVAC filter\; replace if dirty or per specifications.
   Test smoke and CO alarms\; inspect fire extinguisher gauge. Check for g
  as appliance or water-heater concerns\; do not work on gas connections.
-RRULE:FREQ=MONTHLY;BYMONTHDAY=21
+RRULE:FREQ=MONTHLY;BYDAY=2SA
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:63c7fe49-edf2-4487-ba13-8de7ac90c193@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
 SUMMARY:Monthly: wellhead\, sheds\, deck & drainage walk
 DESCRIPTION:Check visible well cap\, grading\, erosion and standing water
- \; inspect both sheds and chicken coop roof\; observe deck damage from s
+ \; inspect both sheds and their roofs\; observe deck damage from s
  afe areas. Keep unsafe sections off-limits.
-RRULE:FREQ=MONTHLY;BYMONTHDAY=24
+RRULE:FREQ=MONTHLY;BYDAY=2SU
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a56aae13-84d2-4f7b-9ce3-dfdddf3c3e75@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
 SUMMARY:Monthly: junk room & storage declutter
 DESCRIPTION:Sort one zone\; discard\, donate or organize items\; check fo
  r pests\, leaks and moisture.
-RRULE:FREQ=MONTHLY;BYMONTHDAY=25
+RRULE:FREQ=MONTHLY;BYDAY=4SA
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:834ec1c6-de85-426c-847d-611161585f57@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
 SUMMARY:Monthly: dusting\, windows & utility checks
 DESCRIPTION:Rotate baseboards\, ceiling fans\, blinds and window tracks\;
   inspect under sinks\, washer hoses and laundry-room moisture.
-RRULE:FREQ=MONTHLY;BYMONTHDAY=26
+RRULE:FREQ=MONTHLY;BYDAY=4SU
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a3bc85ca-7864-4c6b-b67a-be74a04425a4@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
 SUMMARY:Quarterly: deep clean appliances & dryer exhaust
 DESCRIPTION:Clean behind accessible appliances\; clean refrigerator coils
   if applicable\; inspect dryer exhaust and clean as needed. Seek profess
  ional help for inaccessible ducts.
-RRULE:FREQ=MONTHLY;INTERVAL=3;BYDAY=-1SA
+RRULE:FREQ=YEARLY;BYMONTH=1,4,7,10;BYDAY=1FR
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:540c6e91-282d-40c7-b309-0be59bb5fbdf@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
 SUMMARY:Quarterly: doors\, windows\, pests & plumbing
 DESCRIPTION:Inspect weatherstripping\, locks\, screens\, caulking\, crawl
  space/attic pest signs and visible plumbing\; avoid unsafe crawlspace ac
  cess.
-RRULE:FREQ=MONTHLY;INTERVAL=3;BYDAY=-1SA
+RRULE:FREQ=YEARLY;BYMONTH=1,4,7,10;BYDAY=2FR
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e34ef2e1-77d1-4ad4-b9bb-b52d6e8d0bf8@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Quarterly: coop\, deck\, trees & well surroundings
-DESCRIPTION:Deep clean coop as conditions require\; inspect mites\, fenci
- ng and roof. Review deck framing\, railings and stairs from safe locatio
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Quarterly: deck\, trees & well surroundings
+DESCRIPTION:Review deck framing\, railings and stairs from safe locatio
  ns\; look for damaged tree limbs and contamination near well.
-RRULE:FREQ=MONTHLY;INTERVAL=3;BYDAY=-1SA
+RRULE:FREQ=YEARLY;BYMONTH=1,4,7,10;BYDAY=4FR
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -345,9 +331,9 @@ UID:a38e93d2-406c-4cd0-af64-b6d6c2e2cff3@home-maintenance.local
 DTSTAMP:20261012T130000Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-SUMMARY:October: gutters\, trees\, coop & freeze preparation
+SUMMARY:October: gutters\, trees & freeze preparation
 DESCRIPTION:Clear gutters after leaf fall as needed\; check storm-damaged
-  limbs\; prepare coop ventilation/bedding and outdoor plumbing for cold.
+  limbs\; prepare outdoor plumbing for cold.
 RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=3SA
 TRANSP:TRANSPARENT
 END:VEVENT
