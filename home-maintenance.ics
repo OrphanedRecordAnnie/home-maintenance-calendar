@@ -34,6 +34,11 @@ DESCRIPTION:Wash dishes (no dishwasher)\; wipe kitchen counters\, sink an
  needed.
 RRULE:FREQ=DAILY
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f21298b7-13ea-405f-9ad9-53839bf33bc4@home-maintenance.local
@@ -45,6 +50,11 @@ DESCRIPTION:Clean range\, sink\, counters\, handles\, microwave\; mop flo
  or\; inspect fridge for expired food.
 RRULE:FREQ=WEEKLY;BYDAY=MO
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fbe5fef0-b43d-4572-8456-559e0cec30c1@home-maintenance.local
@@ -56,6 +66,11 @@ DESCRIPTION:Scrub toilets\, showers and tubs\; wipe sinks and mirrors\; m
  op floors\; replace towels\; clear hair from drains.
 RRULE:FREQ=WEEKLY;BYDAY=TU
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aeebc2c6-5354-4ebc-a8d3-fae95dcac1d4@home-maintenance.local
@@ -67,6 +82,11 @@ DESCRIPTION:Change bedding\; vacuum bedroom\; wash and fold laundry\; cle
  an dryer lint screen after every load.
 RRULE:FREQ=WEEKLY;BYDAY=WE
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e2089bfc-3a21-450f-bb7a-bb8cf742074a@home-maintenance.local
@@ -78,6 +98,11 @@ DESCRIPTION:Dust desks and furniture\; vacuum or mop\; clear papers and e
  mpty bins.
 RRULE:FREQ=WEEKLY;BYDAY=TH
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:305d79dc-1b97-4f4c-b36f-520b002b3d56@home-maintenance.local
@@ -89,6 +114,11 @@ DESCRIPTION:Vacuum high-traffic areas and upholstery\; mop as needed\; re
  move trash and recycling.
 RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=FR
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1a3eb7e7-623b-48f3-a344-af9c9ea9d312@home-maintenance.local
@@ -100,6 +130,11 @@ DESCRIPTION:Vacuum high-traffic areas and upholstery\; mop as needed\; re
  move trash and recycling.
 RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=FR
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:94b45ce9-9c57-4ee8-81aa-37ac525e4fea@home-maintenance.local
@@ -111,6 +146,11 @@ DESCRIPTION:Mow/trim during growing season\; remove pet waste\; check fencing\, 
  ous hazards. Skip mowing when dormant.
 RRULE:FREQ=WEEKLY;BYDAY=SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:57eb79cb-da50-41bf-b9c0-fda9bf9378b4@home-maintenance.local
@@ -122,6 +162,11 @@ DESCRIPTION:Review upcoming tasks and supplies\; work on this month’s d
  eep-clean focus\; document repair issues.
 RRULE:FREQ=WEEKLY;BYDAY=SU
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a8cc89bc-cbc7-4fe6-95db-ec787e7e12af@home-maintenance.local
@@ -133,6 +178,11 @@ DESCRIPTION:Clean refrigerator shelves and seals\; oven/range as needed\;
   wipe cabinets\; clean trash cans.
 RRULE:FREQ=MONTHLY;BYDAY=1SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:49c5e8e4-7a93-462a-ac76-b94a04351128@home-maintenance.local
@@ -145,6 +195,11 @@ DESCRIPTION:Clean whirlpool jets/internal plumbing following manufacturer
  r fixtures.
 RRULE:FREQ=MONTHLY;BYDAY=1SU
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:deeff562-41c2-455e-bd43-37fd261e8d1f@home-maintenance.local
@@ -157,6 +212,11 @@ DESCRIPTION:Inspect HVAC filter\; replace if dirty or per specifications.
  as appliance or water-heater concerns\; do not work on gas connections.
 RRULE:FREQ=MONTHLY;BYDAY=2SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:63c7fe49-edf2-4487-ba13-8de7ac90c193@home-maintenance.local
@@ -169,6 +229,11 @@ DESCRIPTION:Check visible well cap\, grading\, erosion and standing water
  afe areas. Keep unsafe sections off-limits.
 RRULE:FREQ=MONTHLY;BYDAY=2SU
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a56aae13-84d2-4f7b-9ce3-dfdddf3c3e75@home-maintenance.local
@@ -180,6 +245,11 @@ DESCRIPTION:Sort one zone\; discard\, donate or organize items\; check fo
  r pests\, leaks and moisture.
 RRULE:FREQ=MONTHLY;BYDAY=4SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:834ec1c6-de85-426c-847d-611161585f57@home-maintenance.local
@@ -191,6 +261,11 @@ DESCRIPTION:Rotate baseboards\, ceiling fans\, blinds and window tracks\;
   inspect under sinks\, washer hoses and laundry-room moisture.
 RRULE:FREQ=MONTHLY;BYDAY=4SU
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a3bc85ca-7864-4c6b-b67a-be74a04425a4@home-maintenance.local
@@ -203,6 +278,11 @@ DESCRIPTION:Clean behind accessible appliances\; clean refrigerator coils
  ional help for inaccessible ducts.
 RRULE:FREQ=YEARLY;BYMONTH=1,4,7,10;BYDAY=1FR
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:540c6e91-282d-40c7-b309-0be59bb5fbdf@home-maintenance.local
@@ -215,6 +295,11 @@ DESCRIPTION:Inspect weatherstripping\, locks\, screens\, caulking\, crawl
  cess.
 RRULE:FREQ=YEARLY;BYMONTH=1,4,7,10;BYDAY=2FR
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e34ef2e1-77d1-4ad4-b9bb-b52d6e8d0bf8@home-maintenance.local
@@ -226,6 +311,11 @@ DESCRIPTION:Review deck framing\, railings and stairs from safe locatio
  ns\; look for damaged tree limbs and contamination near well.
 RRULE:FREQ=YEARLY;BYMONTH=1,4,7,10;BYDAY=4FR
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9ab98a70-1235-4c29-9d40-0d238801ddae@home-maintenance.local
@@ -237,6 +327,11 @@ DESCRIPTION:Deep-organize junk room and storage\; inventory tools and sup
  plies\; review repair budget.
 RRULE:FREQ=YEARLY;BYMONTH=1;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:217a0f4f-d369-43ba-9838-eff48c42a0e0@home-maintenance.local
@@ -247,6 +342,11 @@ SUMMARY:February: kitchen & pantry deep clean
 DESCRIPTION:Deep clean pantry\, kitchen cabinets and appliance interiors.
 RRULE:FREQ=YEARLY;BYMONTH=2;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:115e82a1-7c79-47ca-a2b1-450b7d11fc2f@home-maintenance.local
@@ -259,6 +359,11 @@ DESCRIPTION:Arrange cooling-system service. Test well water for total col
  fter contamination events. Check drainage and roof.
 RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5b0387dc-d9b8-4096-bd38-c9a036a4ad7d@home-maintenance.local
@@ -270,6 +375,11 @@ DESCRIPTION:Clean windows and screens\; clear gutters safely\; inspect do
  wnspouts\, erosion and drainage.
 RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4da56fa0-7e03-44b7-922c-0c71336e65f2@home-maintenance.local
@@ -281,6 +391,11 @@ DESCRIPTION:Inspect deck and outbuildings\; plan structural repairs befor
  e refinishing\; inspect fencing and service lawn equipment.
 RRULE:FREQ=YEARLY;BYMONTH=5;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:55faacd1-5b54-43e2-9422-d15e591f8448@home-maintenance.local
@@ -292,6 +407,11 @@ DESCRIPTION:Deep clean two offices\, dust electronics safely\, organize f
  iles and shred sensitive papers.
 RRULE:FREQ=YEARLY;BYMONTH=6;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a0cf05c9-e4e7-438d-b2c5-2d4fb27fedcc@home-maintenance.local
@@ -303,6 +423,11 @@ DESCRIPTION:Deep clean both bathrooms\; inspect grout\, caulk and plumbin
  g\; follow Jacuzzi manufacturer maintenance instructions.
 RRULE:FREQ=YEARLY;BYMONTH=7;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:779de859-edc6-422a-b92d-1cd8b55cedd0@home-maintenance.local
@@ -314,6 +439,11 @@ DESCRIPTION:Deep clean laundry/storage room\; arrange dryer duct cleaning
   if lint buildup or performance warrants\; inspect washer hoses.
 RRULE:FREQ=YEARLY;BYMONTH=8;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5589e7d0-dbb3-4434-8c7f-9d1db14a1ef0@home-maintenance.local
@@ -325,6 +455,11 @@ DESCRIPTION:Arrange heating-system service\; check gas water heater and r
  ange per manufacturer\; inspect weatherstripping and outdoor plumbing.
 RRULE:FREQ=YEARLY;BYMONTH=9;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a38e93d2-406c-4cd0-af64-b6d6c2e2cff3@home-maintenance.local
@@ -336,6 +471,11 @@ DESCRIPTION:Clear gutters after leaf fall as needed\; check storm-damaged
   limbs\; prepare outdoor plumbing for cold.
 RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1ad77527-a76c-4291-8e38-3af353c43a05@home-maintenance.local
@@ -347,6 +487,11 @@ DESCRIPTION:Deep clean bedroom\, mattress and upholstery\; organize close
  ts and bedding.
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dcb507ae-2c45-42f4-82b5-55d47ff8d056@home-maintenance.local
@@ -358,6 +503,11 @@ DESCRIPTION:Review alarms\, extinguishers\, roof\, plumbing\, repair reco
  rds\, well test results and maintenance budget.
 RRULE:FREQ=YEARLY;BYMONTH=12;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7595e8c7-0e02-428f-9736-dba2a82de2e7@home-maintenance.local
@@ -370,6 +520,11 @@ DESCRIPTION:Inspect for leaks/corrosion\; arrange flushing/draining and a
  system work by qualified personnel.
 RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c69fb4e6-dc7f-4666-9101-7e98e1be1b8f@home-maintenance.local
@@ -381,6 +536,11 @@ DESCRIPTION:Inspect roof from ground or hire professional\; review siding
  \, paint\, sealant and storm damage. Avoid unsafe ladders.
 RRULE:FREQ=YEARLY;BYMONTH=5;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6d2dc122-4c01-4959-a33a-44998ba1510d@home-maintenance.local
@@ -392,6 +552,11 @@ DESCRIPTION:Review pump cycling\, pressure tank and controls\; schedule p
  rofessional inspection based on condition\, commonly every 1–3 years.
 RRULE:FREQ=YEARLY;BYMONTH=6;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8c72b0a6-8e78-4f83-a093-96416e928f69@home-maintenance.local
@@ -403,5 +568,10 @@ DESCRIPTION:If the property has a septic system\, arrange inspection abou
  t every 1–3 years and pump as indicated\, commonly 3–5 years.
 RRULE:FREQ=YEARLY;BYMONTH=8;BYDAY=3SA
 TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Home Maintenance reminder
+TRIGGER:-PT0M
+END:VALARM
 END:VEVENT
 END:VCALENDAR
