@@ -26,8 +26,8 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:60864b8f-3c48-462d-9661-9ff0dd38eeb6@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;TZID=America/Chicago:20261012T1700
-DTEND;TZID=America/Chicago:20261012T1720
+DTSTART;TZID=America/Chicago:20261012T1000
+DTEND;TZID=America/Chicago:20261012T1020
 SUMMARY:Daily reset: kitchen\, dishes & clutter
 DESCRIPTION:Wash dishes (no dishwasher)\; wipe kitchen counters\, sink an
  d stovetop\; tidy living room\, bedroom and offices\; take out waste as 
