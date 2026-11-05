@@ -43,8 +43,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:f21298b7-13ea-405f-9ad9-53839bf33bc4@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;TZID=America/Chicago:20261012T1800
-DTEND;TZID=America/Chicago:20261012T1840
+DTSTART;TZID=America/Chicago:20261012T1100
+DTEND;TZID=America/Chicago:20261012T1140
 SUMMARY:Kitchen weekly clean
 DESCRIPTION:Clean range\, sink\, counters\, handles\, microwave\; mop flo
  or\; inspect fridge for expired food.
@@ -91,8 +91,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:e2089bfc-3a21-450f-bb7a-bb8cf742074a@home-maintenance.local
 DTSTAMP:20261012T130000Z
-DTSTART;TZID=America/Chicago:20261015T1800
-DTEND;TZID=America/Chicago:20261015T1845
+DTSTART;TZID=America/Chicago:20261015T1100
+DTEND;TZID=America/Chicago:20261015T1145
 SUMMARY:Living room & two offices
 DESCRIPTION:Dust desks and furniture\; vacuum or mop\; clear papers and e
  mpty bins.
